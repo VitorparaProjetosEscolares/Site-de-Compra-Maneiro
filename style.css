@@ -1,0 +1,120 @@
+#Corpo {
+    background-image: linear-gradient(to right, red, green, blue, yellow, purple);
+}
+
+#Cabecalho {
+    text-align: center;
+    font-family: "Bitcount Prop Double Ink", system-ui;
+    background-color: lightblue;
+    height: 100px;
+    position: relative;
+    width: 100%;
+    top: -20px;
+}
+
+#Cabecalho > img {
+    width: 55px;
+    position: relative;
+    top: -85px;
+    left: -220px;
+}
+
+#Cabecalho > h1 {
+    margin-top: 20px;
+    color: green;
+    text-shadow: -2px 3px 4px black;
+}
+
+#Cabecalho > p {
+    font-size: 15px;
+}
+
+#Menu {
+    background-color: red;
+    height: 40px;
+    width: 100%;
+    position: relative;
+    top: -20px;
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 22px;
+}
+
+#Jogos {
+    text-align: center;
+    font-family: "Bitcount Prop Double Ink", system-ui;
+    background-color: lightcoral;
+    font-weight: 800;
+}
+
+#produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+#produtos div {
+    width : 250px;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+img[alt="imggames"] {
+    width: 150px;
+    box-shadow: -2px 3px 15px black;
+    margin-top: 25px;
+}
+
+#Consoles {
+    text-align: center;
+    font-family: "Bitcount Prop Double Ink", system-ui;
+    background-color: lightcyan;
+    font-weight: 800;
+}
+
+#acessorios {
+    text-align: center;
+    font-family: "Bitcount Prop Double Ink", system-ui;
+    background-color: lightskyblue;
+    font-weight: 800;
+}
+
+.Console > img {
+    width: 200px;
+    box-shadow: -2px 3px 15px black;
+    margin-top: 25px;
+}
+
+.acessorio > img {
+    width: 200px;
+    box-shadow: -2px 3px 15px black;
+    margin-top: 25px;
+}
+
+#Rodape {
+    text-align: center;
+    font-family: "Bitcount Prop Double Ink", system-ui;
+    background-color: lightblue;
+    height: 100px;
+    position: relative;
+    width: 100%;
+    top: 10px;
+}
+
+#Rodape > h1 {
+    margin-top: 20px;
+    text-shadow: -2px 3px 4px black;
+    font-size: 35PX;
+}
+
+#Rodape > p {
+    font-size: 20PX;
+}
